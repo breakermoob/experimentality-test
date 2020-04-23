@@ -1,3 +1,21 @@
 body{
    margin: 0;
 }
+
+h1 {
+   font-family: 'Gotham-Rounded-Light';
+   font-size: 6rem;
+}
+p {
+   font-family: 'Gotham-Rounded-Light';
+}
+
+path{
+   fill: white;
+}
+
+@media screen and (max-width: 1024px) {
+   h1{
+      font-size: 2rem;
+   }
+ }

@@ -1,10 +1,4 @@
-h1 {
-   font-family: 'Gotham-Rounded-Light';
-   font-size: 6rem;
-}
-p {
-   font-family: 'Gotham-Rounded-Light';
-}
+/* HEAD Block */
 
 .head-block{
    position: relative;
@@ -30,12 +24,13 @@ p {
 
 .head-block__curve{
    position: absolute;
-   bottom: -5px;
+   bottom: -4px;
    width: 100%;
 }
-.head-block__curve path{
-   fill: white;
-}
+
+/* END HEAD Block */
+
+/* INFO Block */
 
 .info-block{
    margin: 5rem;
@@ -52,11 +47,9 @@ p {
    margin: 0;
 }
 
-@media screen and (max-width: 1024px) {
+/* END INFO Block */
 
-   h1{
-      font-size: 2rem;
-   }
+@media screen and (max-width: 1024px) {
 
    .head-block__content {
       height: 70vh;
