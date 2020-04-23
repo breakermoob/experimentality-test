@@ -1,0 +1,68 @@
+h1 {
+   font-family: 'Gotham-Rounded-Light';
+   font-size: 6rem;
+}
+p {
+   font-family: 'Gotham-Rounded-Light';
+}
+
+.head-block{
+   position: relative;
+   margin: 0;
+   padding: 0;
+   width: 100%;
+}
+
+.head-block__content {
+   background: rgb(161,203,0,1);
+   background: linear-gradient(270deg, rgba(161,203,0,1) 0%, rgba(0,188,255,1) 100%);
+
+   display: flex;
+   align-items: center;
+   justify-content: center;
+
+   height: 100vh;
+}
+.head-block__content__tittle {
+   color: white;
+   text-align: center;
+}
+
+.head-block__curve{
+   position: absolute;
+   bottom: -5px;
+   width: 100%;
+}
+.head-block__curve path{
+   fill: white;
+}
+
+.info-block{
+   margin: 5rem;
+   color: #1E1E1E;
+   text-align: center;
+}
+.info-block__tittle{
+   padding: 1rem;
+   margin: 0;
+}
+.info-block__text{
+   font-size: 16px;
+   padding: 1rem;
+   margin: 0;
+}
+
+@media screen and (max-width: 1024px) {
+
+   h1{
+      font-size: 2rem;
+   }
+
+   .head-block__content {
+      height: 70vh;
+   }
+
+   .info-block{
+      margin: 3rem;
+   }
+ }
