@@ -1,0 +1,27 @@
+.form-block{
+   position: relative;
+   margin: 0;
+   padding: 0;
+   width: 100%;
+}
+
+.form-block__curve{
+   position: absolute;
+   top: 0;
+   width: 100%;
+}
+
+.form-block__content{
+   background: rgb(161,203,0,1);
+   background: linear-gradient(270deg, rgba(161,203,0,1) 0%, rgba(0,188,255,1) 100%);
+
+   display: flex;
+   align-items: center;
+   justify-content: center;
+
+   height: 100vh;
+}
+
+.form-block__content__tittle{
+   color: white;
+}
