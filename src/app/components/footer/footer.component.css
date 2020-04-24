@@ -1,0 +1,20 @@
+.footer{
+   background-color: #1E1E1E;
+   padding: 3rem;
+
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+}
+
+.footer__text{
+   color: white;
+   font-family: 'Gotham-Rounded-Light';
+}
+
+@media screen and (max-width: 1024px) {
+   .footer{
+      padding: 2rem;
+   }
+ }

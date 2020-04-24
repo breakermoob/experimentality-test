@@ -1,1 +1,21 @@
-/* You can add global styles to this file, and also import other style files */
+body{
+   margin: 0;
+}
+
+h1 {
+   font-family: 'Gotham-Rounded-Bold';
+   font-size: 5.5rem;
+}
+p {
+   font-family: 'Gotham-Rounded-Light';
+}
+
+path{
+   fill: white;
+}
+
+@media screen and (max-width: 1024px) {
+   h1{
+      font-size: 2rem;
+   }
+ }
