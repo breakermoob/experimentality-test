@@ -14,12 +14,19 @@
    display: flex;
    align-items: center;
    justify-content: center;
+   flex-direction: column;
 
    height: 108vh;
 }
 .head-block__content__tittle {
    color: white;
    text-align: center;
+}
+
+.head-block__content__img{
+   z-index: 1;
+   position: absolute;
+   bottom: 5rem;
 }
 
 .head-block__curve{

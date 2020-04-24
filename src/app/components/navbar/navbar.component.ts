@@ -13,15 +13,19 @@ export class NavbarComponent implements OnInit {
 
   ngOnInit() {
 
-    window.onscroll = function (e) {
+    window.onscroll = (e) => {
       let element = document.getElementById("nav");
-      console.log(window.pageYOffset)
-      if (window.pageYOffset>300) {
+      if (window.pageYOffset > 300) {
         element.classList.add("navbar__scroll-color");
       } else {
         element.classList.remove("navbar__scroll-color");
       }
     }
+  }
+
+  scrollTo(id) {
+    let x = document.getElementById(id)
+    x.scrollIntoView({ behavior: 'smooth', block: 'center' });
   }
 
 }

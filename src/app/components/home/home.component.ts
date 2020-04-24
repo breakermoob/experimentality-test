@@ -7,11 +7,16 @@ import { Component, OnInit, Input } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
 
-  @Input() String:any;
+  @Input() String: any;
 
   constructor() { }
 
   ngOnInit() {
+  }
+
+  scrollTo(id) {
+    let x = document.getElementById(id)
+    x.scrollIntoView({ behavior: 'smooth', block: 'center' });
   }
 
 }

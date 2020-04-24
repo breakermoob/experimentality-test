@@ -1,4 +1,4 @@
-<section class="form-block">
+<section class="form-block" id="form">
    <div class="form-block__curve">
       <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
          xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/" viewBox="0 0 1920 463.9">
@@ -11,28 +11,35 @@
          <div class="form-container">
             <label class="form__label" for="name">Nombre*</label><br>
             <input class="form__input" type="text" formControlName="name" required>
-          </div>
+         </div>
          <div class="form-container">
             <label class="form__label" for="lastname">Apellido</label><br>
             <input class="form__input" id="lastname" type="text" formControlName="lastname">
-          </div>
-        
-          <div class="form-container">
+         </div>
+
+         <div class="form-container">
             <label class="form__label" for="email">Email*</label><br>
             <input class="form__input" id="email" type="email" formControlName="email" required>
-          </div>
-          <div class="form-container">
+         </div>
+         <div class="form-container">
             <label class="form__label" for="date">Fecha de Nacimiento*</label><br>
             <input class="form__input" id="date" type="date" formControlName="date" required>
-          </div>
-        
-          <div class="form-container">
-             <input class="form__input-checkbox" id="checkbox" type="checkbox" formControlName="checkbox" required>
-            <label class="form__label" for="date"> Acepto terminos y condiciones*</label> 
-          </div>  
-        
-         <button class="form-button" type="submit">Enviar</button>
-       
-       </form>
+         </div>
+
+         <div class="form-checkbox">
+            <input class="form__input-checkbox" id="checkbox" type="checkbox" formControlName="checkbox" required>
+            <label class="form__label" for="date"> Acepto terminos y condiciones*</label>
+         </div>
+
+         <div class="form-submit">
+            <div class="form-submit__item">
+               <p class="form-submit__item__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  diam</p>
+            </div>
+            <div class="form-submit__item">
+               <button class="form-submit__item__button" type="submit">Enviar</button>
+            </div>
+         </div>
+      </form>
    </div>
 </section>
